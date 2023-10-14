@@ -225,7 +225,8 @@ div#changelogText {
 
 div#howtoplay {
 
-	position: absolute;
+
+	position: fixed;
 	display: none;
 
 	width: 200px;
@@ -242,10 +243,13 @@ div#howtoplay {
 div#howtoplayText {
 
 	text-align:left;
-	color:white;
-	font-family: 'Viga',sans-serif;
+	/* color:white;
+	font-family: 'Viga',sans-serif; */
 	font-size: 10px;
-	margin-left:15px;
+	margin-left:9px;
+	margin-top:32px;
+	padding-bottom:10px;
+
 }
 
 div#howtoplay p {
@@ -254,6 +258,7 @@ div#howtoplay p {
 }
 
 div#howtoplayTitle {
+	position: fixed;
 
 	font-family: 'Black Han Sans', sans-serif;
 	font-size: 15px;
